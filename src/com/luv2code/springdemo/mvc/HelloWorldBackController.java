@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/showPerform")
 public class HelloWorldBackController {
 
-//    @RequestMapping("/index.jsp/showPerform")
-//    public String showPerform() {
-//        return "helloworldtoyou";
-//    }
+    @RequestMapping("/showPerform")
+    public String showPerform() {
+      return "helloworldtoyou";
+    }
 
-//    @RequestMapping("/showForm")
-//    public String showForm() {
-//        return "hello";
-//    }
+    @RequestMapping("/showForm")
+    public String showForm() {
+        return "hello";
+    }
 }
